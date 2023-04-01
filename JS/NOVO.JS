@@ -1,4 +1,4 @@
-function increment() {
-    var count = document.getElementById("count");
-    count.innerHTML = parseInt(count.innerHTML ) +50;
+function mudar() {
+    var foto = document.getElementById("fotograph");
+    count.innerHTML = parseInt(foto.innerHTML ) + 1;
 }

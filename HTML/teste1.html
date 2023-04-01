@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My First HTML Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+	<h1 style="text-align:center;">Hello, World!</h1>
+	<h2>
+		<p style="text-align:center;">This is my first HTML document.</p>
+	</h2>
+
+	<button onclick="increment()">Increment</button>
+	<p> <span id="count">0</span></p>
+	<p>
+	<h2 style="text-align: center;"><a href="C:\Users\df780\source\repos\FUNDAMENTOS-HTML\HTML">fotos</a></h2>
+	</p>
+	<script>
+		function increment() {
+			var count = document.getElementById("count");
+			count.innerHTML = parseInt(count.innerHTML) + 1;
+		}
+	</script>
+	<script src="NOVO.js"></script>
+
+
+	<style>
+		h1 {
+			color: blue;
+		}
+
+		p {
+			font-size: 18px;
+		}
+
+		p {
+			color: red;
+			font-size: 32px;
+		}
+	</style>
+</body>
+
+</html>

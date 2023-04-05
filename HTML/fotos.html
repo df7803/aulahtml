@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>My Website</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
   <h1>Welcome to my website</h1>
   <p>This is a paragraph.</p>
-  <button onclick="mudar()">mudar</button>
-	<p> <span id="fotograph">0</span></p>
-<script src="JS\NOVO.js"></script>
-<script>mudar()</script>
+
+  <button onclick="mudar()">FOTO</button>
+  <p> <span id="fotograph">0</span></p>
+  <script src="JS\NOVO.js"></script>
+  <script>mudar();</script>
+
+  <script>function mudar() {
+      var fotograph = document.getElementById("fotograph")
+      fotograph.innerHTML = parseInt(fotograph.innerHTML) + 1;   //inner =intena,  parsen analisar
+    }</script>
+
 
   <a href="file:///C:/Users/df780/source/repos/FUNDAMENTOS-HTML/HTML/teste.html">pagina inicial</a>
-  <script></script>
+
+
   <style>
-    h1 {
-        color: green;
-        font-size: 50;
-    }
 
-    p {
-        font-size: 18px;
-        right: auto;
-        
-    }
-
-    a {
-        color: pink;
-        font-size: 32px;
-    }
-</style>
+  </style>
 </body>
 
 </html>

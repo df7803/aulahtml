@@ -1,4 +1,4 @@
 function mudar() {
-    var foto = document.getElementById("fotograph");
-    count.innerHTML = parseInt(foto.innerHTML ) + 1;
+    var fotograph = document.getElementById("fotograph")
+    fotograph.innerHTML = parseInt(fotograph.innerHTML ) + 1;   //inner =intena,  parsen analisar
 }

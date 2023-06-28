@@ -2,3 +2,7 @@ function mudar() {
     var fotograph = document.getElementById("fotograph")
     fotograph.innerHTML = parseInt(fotograph.innerHTML ) + 1;   //inner =intena,  parsen analisar
 }
+function increment() {
+    var fotograph = document.getElementById("count")
+    fotograph.innerHTML = parseInt(fotograph.innerHTML ) + 1;   //inner =intena,  parsen analisar
+}

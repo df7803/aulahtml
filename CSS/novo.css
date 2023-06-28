@@ -1,21 +1,9 @@
-p {
-    color: red;
-    font-size: 32px;
-  }
-  
- 
-  h1 {
-    color: green;
-    font-size: 50;
-  }
+h1{ text-align: center; color: black;font-size: 50px;}
 
-  p {
-    font-size: 18px;
-    right: auto;
+p{ text-align: left;color: aqua; font-size: 30px;}
 
-  }
+span{ font-size: 50px; font-style: normal; color: black;}
 
-  a {
-    color: pink;
-    font-size: 32px;
-  }
+h2{ font-size: 40px; font-style: italic; font-weight: 100;color: brown;}
+
+a{ font-size: small; font-style: inherit; color: blue;}

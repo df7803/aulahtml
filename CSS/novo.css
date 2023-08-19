@@ -1,9 +1,30 @@
-h1{ text-align: center; color: black;font-size: 50px;}
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
 
-p{ text-align: left;color: aqua; font-size: 30px;}
+p {
+  text-align: left;
+  color: aqua;
+  font-size: 30px;
+}
 
-span{ font-size: 50px; font-style: normal; color: black;}
+span {
+  font-size: 50px;
+  font-style: normal;
+  color: black;
+}
 
-h2{ font-size: 40px; font-style: italic; font-weight: 100;color: brown;}
+h2 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 100;
+  color: brown;
+}
 
-a{ font-size: small; font-style: inherit; color: blue;}
+a {
+  font-size: small;
+  font-style: inherit;
+  color: blue;
+}
